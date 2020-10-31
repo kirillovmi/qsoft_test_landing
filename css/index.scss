@@ -1,5 +1,16 @@
 $font: 'Roboto', sans-serif;
 
+$black_blue: #121920;
+$dark_grey: #768298;
+$medium_grey: #BBC4D6;
+$light_grey: #EBEBF1;
+$light_red: #F95A59;
+$pink: #F95A59;
+$violet: #A7507B;
+$blue: #6680AE;
+$light_blue: #34AADD; 
+$white: #ffffff;
+
 
 body {
     display: block;
@@ -23,12 +34,12 @@ body {
     font-weight: 500;
 
     &_colored {
-        background-color: #34AADD;
-        color: #fff;
+        background-color: $light_blue;
+        color: $white;
     }
 
     &_colored:hover {
-        background-color: #6680AE;
+        background-color: $blue;
     }
 
     &_colored:active {
@@ -37,17 +48,16 @@ body {
 
     &_bordered {
         background-color: transparent;
-        color: #34AADD;
-        border: 1px solid #34AADD;
+        color: $light_blue;
+        border: 1px solid $light_blue;
     }
 
     &_bordered:hover {
-        border: 1px solid #6680AE;
-        color: #6680AE;
+        border: 1px solid $blue;
+        color: $blue;
     }
 
     &_bordered:active {
-        border: 1px solid #6680AE;
         opacity: 0.5;
     }
 
@@ -61,7 +71,7 @@ body {
 
 .title {
     font-size: 36px;
-    color: #121920;
+    color: $black_blue;
     font-weight: 500;
     margin-bottom: 50px;
 }
@@ -89,12 +99,11 @@ body {
                 .link {
                     font-size: 18px;
                     text-decoration: none;
-                    color: #768298;
+                    color: $dark_grey;
                 }
 
                 .link:hover {
-                    color: #34AADD;
-                    text-decoration: underline;
+                    color: $light_blue;
                 }
 
                 .link:active {
@@ -102,7 +111,7 @@ body {
                 }
                 
                 .active {
-                    color: #F95A59;
+                    color: $light_red;
                 }
             }
         }
@@ -145,23 +154,23 @@ body {
         font-size: 18px;
 
         .phone {
-            color: #121920;
+            color: $black_blue;
             text-decoration: none;
         }
 
         .phone:hover {
-            color: #34AADD;
+            color: $light_blue;
         }
 
         span {
             display: block;
             font-size: 14px;
-            color: #BBC4D6;
+            color: $medium_grey;
         }
     }
 
     .divider {
-        border: 1px solid #EBEBF1;
+        border: 1px solid $light_grey;
         margin: 0;
     }
 }
@@ -179,7 +188,7 @@ body {
             max-width: 270px;
             width: 100%;
             height: 372px;
-            border: 1px solid #EBEBF1;
+            border: 1px solid $light_grey;
             border-radius: 6px;
 
             &__header {
@@ -195,13 +204,13 @@ body {
                     .tag {
                         padding: 3px 10px;
                         text-decoration: none;
-                        color: #fff;
+                        color: $white;
                         margin-right: 3px;
                         font-size: 14px;
                         border-radius: 3px;
 
                         &_red {
-                            background-color: #DC2C53;
+                            background-color: $pink;
                         }
 
                         &_yellow {
@@ -209,7 +218,7 @@ body {
                         }
 
                         &_purple {
-                            background-color: #A7507B;
+                            background-color: $violet;
                         }
                     }
                 }
@@ -230,16 +239,15 @@ body {
                 margin: 0;
                 font-size: 18px;
                 font-weight: 500;
-                color: #121920;
+                color: $black_blue;
 
                 .link {
-                    color: #121920;
+                    color: $black_blue;
                     text-decoration: none;
                 }
 
                 .link:hover {
-                    color: #34AADD;
-                    text-decoration: underline;
+                    color: $light_blue;
                 }
 
                 .link:active {
@@ -249,7 +257,7 @@ body {
 
             &__teaser {
                 font-size: 14px;
-                color: #768298;
+                color: $dark_grey;
                 line-height: 160%;
                 margin: 5px 0px 0px 0px;
             }
@@ -269,14 +277,14 @@ body {
                     position: relative;
                     margin: 0;
                     font-size: 14px;
-                    color: #768298;
+                    color: $dark_grey;
                 }
 
                 .discount_price {
                     margin: 0;
                     font-size: 16px;
                     font-weight: 700;
-                    color: #121920;
+                    color: $black_blue;
                 }
 
                 .common_price::after {
@@ -285,10 +293,10 @@ body {
                     position:absolute;
                     left:0;
                     top:35%;
-                    color:#F95A59;
+                    color:$light_red;
                     width:100%;
                     height:0;
-                    border-bottom:2px solid #F95A59;
+                    border-bottom:2px solid $light_red;
                     transform:rotate(30deg);
                 }
             }

@@ -22,7 +22,7 @@ body {
 
 .button_colored {
   background-color: #34AADD;
-  color: #fff;
+  color: #ffffff;
 }
 
 .button_colored:hover {
@@ -45,7 +45,6 @@ body {
 }
 
 .button_bordered:active {
-  border: 1px solid #6680AE;
   opacity: 0.5;
 }
 
@@ -100,7 +99,6 @@ body {
 
 .header__navigation__wrapper li .link:hover {
   color: #34AADD;
-  text-decoration: underline;
 }
 
 .header__navigation__wrapper li .link:active {
@@ -206,14 +204,14 @@ body {
 .popular_goods .content_wrapper .goods__header__tags .tag {
   padding: 3px 10px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   margin-right: 3px;
   font-size: 14px;
   border-radius: 3px;
 }
 
 .popular_goods .content_wrapper .goods__header__tags .tag_red {
-  background-color: #DC2C53;
+  background-color: #F95A59;
 }
 
 .popular_goods .content_wrapper .goods__header__tags .tag_yellow {
@@ -249,7 +247,6 @@ body {
 
 .popular_goods .content_wrapper .goods__title .link:hover {
   color: #34AADD;
-  text-decoration: underline;
 }
 
 .popular_goods .content_wrapper .goods__title .link:active {
