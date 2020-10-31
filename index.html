@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>QSOFT</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="#" class="logo"><img src="./img/logo.svg" alt="logo"></a>
+                <form class="header__search_form" action="#">
+                    <input class="text_box" type="text" placeholder="Найти на сайте...">
+                    <button class="search_button" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <p class="header__contact"><a class="phone" href="tel:8 (999) 666-00-13 ">8 (999) 666-00-13</a><span>Звоните с 8 до 23!</span></p>
+                <a class="button button_colored header__login" href="#">Войти</a>
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="container">
+            <nav class="header__navigation">
+                <ul class="header__navigation__wrapper">
+                    <li><a class="link active" href="#">Акции</a></li>
+                    <li><a class="link" href="#">Товары</a></li>
+                    <li><a class="link" href="#">Доставка и оплата</a></li>
+                    <li><a class="link" href="#">Гарантия</a></li>
+                    <li><a class="link" href="#">О нас</a></li>
+                    <li><a class="link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="popular_goods">
+        <div class="container">
+            <h2 class="title popular_goods__title">Популярные товары</h2>
+            <div class="content_wrapper">
+                <article class="goods">
+                    <header class="goods__header">
+                        <div class="goods__header__tags">
+                            <a class="tag tag_yellow" href="#">Акция</a>
+                            <a class="tag tag_red" href="#">Хит</a>
+                            <a class="tag tag_purple" href="#">Лучшая цена</a>
+                        </div>
+                        <img class="goods__header__photo" src="./img/article1.jpg" alt="article_photo">
+                    </header>
+                    <div class="goods__body">
+                        <h3 class="goods__title"><a class="link" href="#">Цветок, который стоит на столе, такой загадочный.</a></h3>
+                        <p class="goods__teaser">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+                    </div>
+                    <footer class="goods__footer">
+                        <div class="goods__price">
+                            <p class="common_price">1 499 <i class="fas fa-ruble-sign"></i></p>
+                            <p class="discount_price" class="">799 <i class="fas fa-ruble-sign"></i></p>
+                        </div>
+                        <a class="button button_colored goods__cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </footer>
+                </article>
+                <article class="goods">
+                    <header class="goods__header">
+                        <div class="goods__header__tags">
+                            <a class="tag tag_yellow" href="#">Акция</a>
+                        </div>
+                        <img class="goods__header__photo" src="./img/article2.jpg" alt="article_photo">
+                    </header>
+                    <div class="goods__body">
+                        <h3 class="goods__title"><a class="link" href="#">Набор юного инстаблогера</a></h3>
+                        <p class="goods__teaser">Посмотрите на него. Он покажет всем какой вы классный и творческий. Главное не забыть посидеть на подоконнике с бокаль...</p>
+                    </div>
+                    <footer class="goods__footer">
+                        <div class="goods__price">
+                            <p class="discount_price" class="">13 666 <i class="fas fa-ruble-sign"></i></p>
+                        </div>
+                        <a class="button button_colored goods__cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </footer>
+                </article>
+                <article class="goods">
+                    <header class="goods__header">
+                        <div class="goods__header__tags">
+                            <a class="tag tag_red" href="#">Хит</a>
+                        </div>
+                        <img class="goods__header__photo" src="./img/article3.jpg" alt="article_photo">
+                    </header>
+                    <div class="goods__body">
+                        <h3 class="goods__title"><a class="link" href="#">Лампа. Просто лампа.</a></h3>
+                        <p class="goods__teaser">В паре с загадочным цветком добавит загадочности вашему интерьеру</p>
+                    </div>
+                    <footer class="goods__footer">
+                        <div class="goods__price">
+                            <p class="common_price">2 699 <i class="fas fa-ruble-sign"></i></p>
+                            <p class="discount_price" class="">1 789 <i class="fas fa-ruble-sign"></i></p>
+                        </div>
+                        <a class="button button_colored goods__cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </footer>
+                </article>
+                <article class="goods">
+                    <header class="goods__header">
+                        <div class="goods__header__tags">
+                            <a class="tag tag_yellow" href="#">Акция</a>
+                            <a class="tag tag_red" href="#">Хит</a>
+                        </div>
+                        <img class="goods__header__photo" src="./img/article4.jpg" alt="article_photo">
+                    </header>
+                    <div class="goods__body">
+                        <h3 class="goods__title"><a class="link" href="#">Классные деревянные минималистичные часы с...</a></h3>
+                        <p class="goods__teaser">Все в ту же копилку загдочности вашего интерьера и вашей натуры</p>
+                    </div>
+                    <footer class="goods__footer">
+                        <div class="goods__price">
+                            <p class="common_price">2 199 <i class="fas fa-ruble-sign"></i></p>
+                            <p class="discount_price" class="">1 899 <i class="fas fa-ruble-sign"></i></p>
+                        </div>
+                        <a class="button button_colored goods__cart" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </footer>
+                </article>
+            </div>
+            <a class="button button_bordered" href="#">
+                <span class="button__content">
+                    <p>Смотреть каталог</p>
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
+        </div>
+    </section>
+    <section class="novelties">
+        <div class="container">
+            <h2 class="title novelties__title">Новости компании</h2>
+            <div class="novelties__wrapper">
+                <article class="novelty">
+                    <img class="novelty__photo" src="#" alt="article_photo">
+                    <h3 class="novelty__title"><a class="link" href="#">Цветок, который стоит на столе, такой загадочный.</a></h3>
+                    <p class="novelty__teaser">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+                </article>
+                <article>
+                    <img class="novelty__photo" src="#" alt="article_photo">
+                    <h3 class="novelty__title"><a class="link" href="#">Длинный заголовок большой новости</a></h3>
+                    <p class="novelty__teaser">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+                </article>
+                <article>
+                    <img class="novelty__photo" src="#" alt="article_photo">
+                    <h3 class="novelty__title"><a class="link" href="#">Длинный заголовок большой новости</a></h3>
+                    <p class="novelty__teaser">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+                </article>
+                <article>
+                    <img class="novelty__photo" src="#" alt="article_photo">
+                    <h3 class="novelty__title"><a class="link" href="#">Цветок, который стоит на столе, такой загадочный.</a></h3>
+                    <p class="novelty__teaser">А тут описание цветка, придающее ему загадочности и вызывающее интерес пользователя</p>
+                </article>
+            </div>
+            <a class="button button_bordered" href="#">
+                <span class="button__content">
+                    <p>Смотреть все новости</p>
+                    <i class="fas fa-arrow-right"></i>
+                </span>
+            </a>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <h2 class="title partners__title">Наши партнеры</h2>
+            <div class="partners__wrapper">
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+                <a class="partner" href="#"><img src="#" alt="partner_name"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <a href="#"><img src="#" alt="logo"></a>
+            <div class="social">
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <ul class="footer__navigation">
+                <li><a href="#">Правила</a></li>
+                <li><a href="#">Документы</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+            <a class="call" href="#">Заказать звонок</a>
+        </div>
+    </footer>
+</body>
+</html>
